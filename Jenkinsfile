@@ -44,7 +44,6 @@ pipeline {
             to: "glvsrayudu956@gmail.com",
             subject: "Security Scan stage was completed",
             body: "Security Scan stage was successful!",
-            attachmentsPattern: 'security-*.log',
             attachLog: true
           )
         }
